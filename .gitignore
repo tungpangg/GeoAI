@@ -22,3 +22,12 @@ env/
 # Environment variables
 .env
 *.env
+
+# Generated data files
+*.csv
+*.xlsx
+*.html
+
+# Large raster files (exceed GitHub's 100MB file limit)
+*.tif
+*.tif.ovr
